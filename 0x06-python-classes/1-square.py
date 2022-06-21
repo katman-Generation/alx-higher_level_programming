@@ -2,6 +2,7 @@
 """ Module for task 0 of 0x06-Python-classes project -
 write an empty class Square that defines a square """
 
+
 class Square:
     """Represents a square.
     Private instance attribute: size.
