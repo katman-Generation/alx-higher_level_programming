@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-""" module for single linked list """
+"""
+    This module defines linked listd
+    return {}
+"""
 
 
 class Node:
