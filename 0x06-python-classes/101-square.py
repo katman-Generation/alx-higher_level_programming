@@ -1,4 +1,10 @@
 #!/usr/bin/python3
+"""
+    This module defines linked lists
+    return {}
+"""
+
+
 class Square:
     """Represents a square.
     Private instance attribute: size:
@@ -30,7 +36,6 @@ class Square:
                 my_str += '\n'
             return my_str[:-1]
 
-
     @property
     def size(self):
         """Retrieves the size."""
@@ -44,7 +49,6 @@ class Square:
         elif value < 0:
             raise ValueError("size must be >= 0")
         self.__size = value
-
 
     @property
     def position(self):

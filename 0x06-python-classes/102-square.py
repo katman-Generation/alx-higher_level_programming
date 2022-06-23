@@ -1,4 +1,10 @@
 #!/usr/bin/python3
+"""
+    This module defines linked lists
+    return {}
+"""
+
+
 class Square:
     """Represents a square.
     Private instance attribute: size:
