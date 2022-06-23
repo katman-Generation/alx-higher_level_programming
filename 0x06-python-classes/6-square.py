@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""Module for another elaborated class Square"""
+
+
 class Square:
     """ Module for task 0 of 0x06-Python-classes project -
     write an empty class Square that defines a square """
@@ -7,7 +10,6 @@ class Square:
         """Initializes the data."""
         self.size = size
         self.position = position
-
 
     @property
     def size(self):
@@ -22,7 +24,6 @@ class Square:
         elif value < 0:
             raise ValueError("size must be >= 0")
         self.__size = value
-
 
     @property
     def position(self):
@@ -40,11 +41,9 @@ class Square:
             raise TypeError("position must be a tuple of 2 positive integers")
         self.__position = value
 
-
     def area(self):
         """Returns the current square area."""
         return self.__size ** 2
-
 
     def my_print(self):
         """Prints to stdout the square with the character #,
