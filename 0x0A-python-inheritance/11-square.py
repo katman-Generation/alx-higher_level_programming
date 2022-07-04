@@ -30,8 +30,8 @@ class Square(Rectangle):
         return str("[Square] {}/{}".format(self.__size, self.__size))
 
     def area(self):
-         """Computes the area of a Square instance.
-         Overwrites the area() method from Rectangle.
-         """
+        """Computes the area of a Square instance.
+        Overwrites the area() method from Rectangle.
+        """
 
-         return self.__size ** 2
+        return self.__size ** 2
