@@ -10,7 +10,7 @@ class Base:
     Private class attribute: __nb_objects
     """
 
-    __nb_objects = 0;
+    __nb_objects = 0
 
     def __init__(self, id=None):
         """Initialization of a Base instance.
